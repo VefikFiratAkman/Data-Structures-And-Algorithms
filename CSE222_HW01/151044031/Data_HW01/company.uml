@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company</OriginalElement>
+  <nodes>
+    <node x="15.0" y="276.5">com.company.otel</node>
+    <node x="0.0" y="0.0">com.company.room</node>
+    <node x="188.00000000000003" y="211.0">com.company.systemInterface</node>
+    <node x="18.55000000000001" y="488.0">com.company.system</node>
+    <node x="45.25" y="987.0">com.company.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.system" target="com.company.systemInterface">
+      <point x="76.0" y="-224.5" />
+      <point x="208.55" y="463.0" />
+      <point x="287.0" y="463.0" />
+      <point x="0.0" y="113.5" />
+    </edge>
+    <edge source="com.company.otel" target="com.company.room">
+      <point x="51.0" y="-48.0" />
+      <point x="142.5" y="186.0" />
+      <point x="152.5" y="186.0" />
+      <point x="61.0" y="80.5" />
+    </edge>
+    <edge source="com.company.system" target="com.company.otel">
+      <point x="0.0" y="-224.5" />
+      <point x="132.55" y="463.0" />
+      <point x="129.75" y="463.0" />
+      <point x="38.25" y="48.0" />
+    </edge>
+    <edge source="com.company.Main" target="com.company.system">
+      <point x="42.25" y="-25.5" />
+      <point x="172.0" y="962.0" />
+      <point x="189.55" y="962.0" />
+      <point x="57.0" y="224.5" />
+    </edge>
+  </edges>
+  <settings layout="Hıerarchıc Group" zoom="0.8421550094517959" x="193.0" y="519.0" />
+  <SelectedNodes>
+    <node>com.company.otel</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
